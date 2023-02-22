@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: ;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.frame{
+    display: flex;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, alpha);
+}
