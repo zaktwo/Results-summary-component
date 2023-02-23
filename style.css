@@ -36,7 +36,7 @@ body{
     width: 650px;
     overflow: hidden;
     background-color: var(--White);
-    margin: 20px 20px auto;
+    margin: 5% auto;
 
 }
 .frame-container{
@@ -49,6 +49,21 @@ body{
     align-items: center;
     justify-content: center;
 }
+#frame-left #title{
+    color: var(--Light-lavender);
+    margin-bottom: 1rem;
+}
+#frame-left #circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, var(--Violet-blue-circle) ,var(--Persian-blue-circle)); ;
+    margin-bottom: 1rem;
+}
 
 @media (min-width: 576px){
     .frame-container{
@@ -56,6 +71,7 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: row;
+        max-width: 1440px;
     }
     #frame-left{
         display: flex;
