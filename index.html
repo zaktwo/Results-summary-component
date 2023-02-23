@@ -1,44 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Results summary component</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Hanken+Grotesk:wght@700;800&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Hanken+Grotesk:wght@700;800&display=swap"
+    rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
-<div class="frame">
-  <div id="frame-left">
-    <p id="result">Results</p>
-    <div class="center-container">
-      <p id="top"> 76</p>
-      <p id="buttom">of 100</p>
+  <div class="frame">
+    <div class="frame-container">
+      <section id="frame-left">
+        <h3 id="title" class="frame-left-sub">Results</h3>
+        <div id="circle" class="frame-left-sub">
+          <h1 id="top" class="frame-left-sub"> 76</h1>
+          <p id="buttom" class="frame-left-sub">of 100</p>
+        </div>
+        <b class="tilte1" class="frame-left-sub">Great</b>
+        <p class="score1" class="frame-left-sub">You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section id="frame-right">
+        <h3>Summary</h3>
+        <div class="summary">
+          <div class="summary-row">
+            <div id="badge">
+              <img src="./assets/images/icon-reaction.svg" alt="icon">
+              <b> Reaction</b>
+            </div>
+            <div class="summary-row">
+              <div id="badge">
+                <img src="./assets/images/icon-memory.svg" alt="icon">
+                <b> Memory </b>
+              </div>
+            </div>
+            <div class="summary-row">
+              <div id="badge">
+                <img src="./assets/images/icon-verbal.svg" alt="icon">
+                <b> Verbal </b>
+              </div>
+            </div>
+            <div class="summary-row">
+              <div id="badge">
+                <img src="./assets/images/icon-visual.svg" alt="icon">
+                <b> Visual </b>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button id="button">Continue</button>
+      </section>
     </div>
-    <p class="tilte1">Great</p>
-    <p class="score1"></p>
   </div>
-  <div id="frame-right">
-    <div id="reaction"> Reaction</div>
-    <div id="memory"> Memory</div>
-    <div id="verbal">Verbal</div>
-    <div id="visual">Visual</div>
-  </div>
-  <button id="button" >Continue</button>
-</div>
- 
-  
- 
 </body>
+
 </html>

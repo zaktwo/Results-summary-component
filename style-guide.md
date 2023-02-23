@@ -28,7 +28,7 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- White: #ffffff
+- White: #ffffff (html body background)
 - Pale blue: #ebf1ff
 - Light lavender: #c8c7ff
 - Dark gray blue: #303b5a
