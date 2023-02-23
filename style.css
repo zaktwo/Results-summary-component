@@ -54,15 +54,19 @@ body{
     margin-bottom: 1rem;
 }
 #frame-left #circle{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background: linear-gradient(to bottom, var(--Violet-blue-circle) ,var(--Persian-blue-circle)); ;
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#circle h1{
+    color:var(--White);
+    font-size: 4rem;
 }
 
 @media (min-width: 576px){
