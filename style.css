@@ -43,7 +43,7 @@ body{
 
 }
 #frame-left{
-    background-color: var(--Light-royal-blue-background);
+    background: linear-gradient(to bottom, var(--Light-slate-blue-background) ,var(--Light-royal-blue-background));
     border-radius: 2rem;
     
     align-items: center;
