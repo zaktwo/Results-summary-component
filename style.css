@@ -7,8 +7,8 @@
 --Light-slate-blue-background: #7857ff;
 --Light-royal-blue-background: #2e2be9;
 
---Violet-blue-circle: #4e21ca;
---Persian-blue-circle: #2421ca;
+--Violet-blue-circle: hsla(256, 72%, 46%, 1);
+--Persian-blue-circle: hsla(241, 72%, 46%, 0);
 
 --White: #ffffff;
 --Pale-blue: #ebf1ff;
@@ -40,9 +40,10 @@ body{
 
 }
 .frame-container{
-
+    display: flex;
 }
 #frame-left{
+    display: flex;
     background: linear-gradient(to bottom, var(--Light-slate-blue-background) ,var(--Light-royal-blue-background));
     border-radius: 2rem;
     
@@ -57,17 +58,56 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, var(--Violet-blue-circle) ,var(--Persian-blue-circle)); ;
+    background: linear-gradient(to bottom, var(--Violet-blue-circle) ,var(--Persian-blue-circle));
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#circle h1{
+#circle, #top{
     color:var(--White);
     font-size: 4rem;
 }
+#circle, #bottom{
+    color: var(--Light-lavender);
+    
+}
+
+.title1{
+    color: var(--White);
+    font-size: 2rem;
+}
+.score1{
+    color: var(--Light-lavender);
+    font-size: 0.8rem;
+    margin: 15px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+#frame-right{
+
+}
+#badge-reaction{
+    background-color: var(--Light-red) ;
+    opacity: 0.1;
+}
+#badge-memory{
+    background-color: var(--Orangey-yellow);
+    opacity: 0.1;
+}
+#badge-verbal{
+    background-color:var(--Green-teal) ;
+    opacity: 0.1;
+}
+#badge-visual{
+    background-color:var(--Cobalt-blue) ;
+    opacity: 0.1;
+}
+.summary-row {
+    z-index: 1;
+} 
 
 @media (min-width: 576px){
     .frame-container{
