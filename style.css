@@ -56,6 +56,7 @@ body{
 }
 #frame-left #title{
     color: var(--Light-lavender);
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 #frame-left #circle{
@@ -87,37 +88,49 @@ body{
     font-size: 0.8rem;
     margin: 15px;
     width: 200px;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 #frame-right{
     display: flex;
     flex-direction: column;
     margin: 5%;
 }
+.summary{
+    margin: 1rem;
+}
+.summary-row{
+    z-index: 1;
+}
 #badge-reaction{
     background-color: var(--Light-red) ;
     opacity: 0.1;
     margin-bottom: 1rem;
+    z-index: 0;
+    
 }
 #badge-memory{
     background-color: var(--Orangey-yellow);
     opacity: 0.1;
     margin-bottom: 1rem;
+    z-index: 0;
+    
 }
 #badge-verbal{
     background-color:var(--Green-teal) ;
     opacity: 0.1;
     margin-bottom: 1rem;
+    z-index: 0;
+    
 }
 #badge-visual{
     background-color:var(--Cobalt-blue) ;
     opacity: 0.1;
     margin-bottom: 1rem;
+    z-index: 0;
+    
 }
-.summary-row {
-    z-index: 1;
-} 
+
 
 @media (min-width: 576px){
     .frame-container{
