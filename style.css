@@ -1,3 +1,7 @@
+
+/*
+    *** made the same mistake again by skiping the rule of moblie first desktop secon
+*/
 :root{
 --Light-red: #ff5757;
 --Orangey-yellow: #ffb01f;
@@ -39,9 +43,7 @@ body{
     margin: 5% auto;
 
 }
-.frame-container{
-    display: flex;
-}
+
 #frame-left{
     display: flex;
     background: linear-gradient(to bottom, var(--Light-slate-blue-background) ,var(--Light-royal-blue-background));
