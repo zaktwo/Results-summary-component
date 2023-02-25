@@ -94,15 +94,15 @@ body{
 #frame-right{
     display: flex;
     flex-direction: column;
-    margin: 5%;
+    padding: 1.5rem 2rem;
+    gap: 1rem;
 }
 #frame-right h3{
-    margin-left: 5px;
-    padding: 10px;
+   color: black;
+   font-weight: 800;
 }
 .summary{
     display: flex;
-    align-items: center;
     flex-direction: column;
 
     margin: 1rem;
@@ -113,6 +113,8 @@ body{
     align-items: center;
     justify-content: space-between;
     border-radius: 10px;
+    padding: 1rem 0.5rem;
+    margin-bottom: 0.5rem;
 }
 /*#badge-reaction, #badge-memory, #badge-verbal, #badge-visual, b, p{
     display: flex;
@@ -148,7 +150,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
+   
 }
 
 
@@ -157,19 +159,21 @@ body{
     .frame-container{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         flex-direction: row;
         max-width: 1440px;
         margin: 0;
+        flex:1;
     }
     #frame-left{
         display: flex;
         flex-basis: 50%;
-        
+        min-height: 100%;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         padding: 20px;
+        flex: 1;
     }
     #frame-right{
         display: flex;
