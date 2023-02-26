@@ -97,7 +97,7 @@ body{
     padding: 1.5rem 2rem;
     gap: 1rem;
 }
-#frame-right h3{
+#frame-right h1{
    color: black;
    font-weight: 800;
 }
@@ -105,7 +105,7 @@ body{
     display: flex;
     flex-direction: column;
 
-    margin: 1rem;
+  
 }
 
 .summary-row {
@@ -125,32 +125,41 @@ body{
 .summary-row:nth-child(1){
     background-color: hsla(0,100%,67%,0.2);
 }
-.summary-row:nth-child(1) .badge-reaction b {
+.summary-row:nth-child(1) #badge-reaction {
     color: var(--Light-red) ;  
 }
 .summary-row:nth-child(2){
     background-color: hsla(39,100%,56%,0.2);
 }
-.summary-row:nth-child(2) .badge-memory b{
+.summary-row:nth-child(2) #badge-memory {
     color: var(--Orangey-yellow);  
 }
 .summary-row:nth-child(3){
     background-color: hsla(166,100%,37%,0.2);
 }
-.summary-row:nth-child(3) .badge-verbal b{
+.summary-row:nth-child(3) #badge-verbal {
     color:var(--Green-teal) ;
 }
 .summary-row:nth-child(4){
     background-color:hsla(234,85%,45%,0.2) ;
 }
-.summary-row:nth-child(4) .badge-visual b{
-    color:var(--Cobalt-blue) ;
+.summary-row:nth-child(4) #badge-visual {
+    color: var(--Cobalt-blue) ;
 }
 #button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+    margin: 5px;
+   background-color: var(--Dark-gray-blue);
+   border-radius: 2rem;
+   color: var(--White);
+   font-size: 800;
+   padding: 1rem 0.5rem;
+   transition: all 0.2s ease-in-out;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: var(--Light-royal-blue-background);
+    transform: scale(1.1);
+
 }
 
 
