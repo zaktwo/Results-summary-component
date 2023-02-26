@@ -146,6 +146,13 @@ body{
 .summary-row:nth-child(4) #badge-visual {
     color: var(--Cobalt-blue) ;
 }
+.summary-row p{
+    color:var(--Light-lavender);
+    word-spacing: 10px;
+}
+.summary-row, .summary-score{
+    color: black;
+}
 #button{
     margin: 5px;
    background-color: var(--Dark-gray-blue);
